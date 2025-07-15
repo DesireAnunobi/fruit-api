@@ -27,7 +27,10 @@ class Fruit {
     static create(data) {
         const newFruit = data;
         const fruit = fruits.find((fruit) => fruit.name.toLowerCase() == data.name.toLowerCase());
-  
+        const calories = fruits.find((calories) => fruit.name.toLowerCase() == data.name.toLowerCase());
+        const sugar = fruits.find((sugar) => fruit.name.toLowerCase() == data.name.toLowerCase());
+        const fat = fruits.find((fat) => fruit.name.toLowerCase() == data.name.toLowerCase());
+
           if (fruit) {
               throw "The fruit already exists.";
           } else {
