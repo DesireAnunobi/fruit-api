@@ -14,6 +14,17 @@
     "nodemon": "^3.1.0"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
     "express": "^4.19.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesireAnunobi/fruit-api.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DesireAnunobi/fruit-api/issues"
+  },
+  "homepage": "https://github.com/DesireAnunobi/fruit-api#readme"
 }
